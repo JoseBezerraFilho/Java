@@ -10,7 +10,7 @@ public class Ex06 {
 
     double A, B, C, pi = 3.14159, triangulo, circulo, trapezio, quadrado, retangulo ;
 
-    System.err.println("Digite o valor de A:");
+    System.out.println("Digite o valor de A:");
     A = sc.nextDouble();
     System.out.println("Digite o valor de B:");
     B = sc.nextDouble();
@@ -24,6 +24,8 @@ public class Ex06 {
     retangulo = A * B;
 
     System.out.printf("A área do trinângulo, círculo, trapézio, quadrado e retângulo são respectivamente: %.3f, %.3f, %.3f, %.3f, %.3f. %n", triangulo, circulo, trapezio, quadrado, retangulo );
+
+    sc.close();
 
   }
   
