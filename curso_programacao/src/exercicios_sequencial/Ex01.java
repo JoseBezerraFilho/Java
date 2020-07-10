@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios_sequencial;
 import java.util.Scanner;
 
 public class Ex01 {
